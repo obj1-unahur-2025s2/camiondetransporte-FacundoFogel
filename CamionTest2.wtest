@@ -1,8 +1,8 @@
-import cosas.*
-import camion.*
+import camion2.*
+import cosas2.*
 
 describe "teste del camion" {
-
+/*
   method initialize() {
     camion.cargar(knightRider)
     arena.peso(200)
@@ -10,6 +10,7 @@ describe "teste del camion" {
     ladrillos.cantidad(10)
     camion.cargar(ladrillos)
   }
+*/
 
   test "el camion tiene un peso total de 1720" {
     assert.equals(1720, camion.pesoTotal())
@@ -19,3 +20,4 @@ describe "teste del camion" {
     assert.that(camion.puedeCircular(10))
   }
 }
+
